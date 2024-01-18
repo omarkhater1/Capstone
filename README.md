@@ -1,9 +1,10 @@
 # Capstone
 SEG 4910 Capstone Project 2024
 
-#Members
+# Members:
 Omar Khater
 Lina Raji
 Hiba Idrissi
 
-Goal: Our client _____ 
+# Client:
+. The objective of this project 
