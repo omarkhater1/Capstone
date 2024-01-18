@@ -2,8 +2,8 @@
 SEG 4910 Capstone Project 2024
 
 # Members:
-Omar Khater
-Lina Raji
+Omar Khater <br>
+Lina Raji <br>
 Hiba Idrissi
 
 # Client:
