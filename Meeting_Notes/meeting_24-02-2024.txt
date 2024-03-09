@@ -1,0 +1,19 @@
+meeting with the CTO (Azzam) : 
+
+1. Introduction to Application Purpose:
+   - Provided a quick overview of the application's objective.
+
+2. Discussion on Technologies:
+   - Talked about the languages and frameworks employed in the app's development.
+
+3. Experience with Development Tools:
+   - Shared our familiarity with HTML, CSS, JavaScript, PHP, and other relevant frameworks.
+
+4. Next Assignment:
+   - Agreed to draft a user experience report highlighting potential feature additions.
+
+5. Review Process:
+   - Confirmed the upcoming review of Figma designs before beginning the report.
+
+6. Future Meeting Plans:
+   - Planned to discuss code structure and initiate implementation in the next meeting.
