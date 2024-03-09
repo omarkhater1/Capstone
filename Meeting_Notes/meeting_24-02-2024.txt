@@ -12,8 +12,5 @@ meeting with the CTO (Azzam) :
 4. Next Assignment:
    - Agreed to draft a user experience report highlighting potential feature additions.
 
-5. Review Process:
-   - Confirmed the upcoming review of Figma designs before beginning the report.
-
-6. Future Meeting Plans:
+5. Future Meeting Plans:
    - Planned to discuss code structure and initiate implementation in the next meeting.
