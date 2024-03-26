@@ -1,0 +1,39 @@
+Meeting Notes: Post-Meeting with CTO Azzam and CEO Husam.
+
+Date: 24-03-2024
+
+AI Integration Discussion:
+CEO Husam emphasized the importance of enhancing the app with AI capabilities.
+Discussed potential areas where AI can be integrated into the app and processes.
+
+Code Collaboration and Setup:
+Husam will share the app's codebase and gather our GitHub accounts for collaboration.
+We are to create individual branches and set up a database mirroring the development server.
+The first task is to ensure the app runs on a local server that mimics the development environment.
+We will familiarize ourselves with the current framework and functionality before proceeding.
+
+Development Environment Requirements:
+Ensure installation of PHP, MySQL, and a suitable web server to run the application locally.
+We are to send our Git accounts, create branches from the development server, and work independently on our tasks.
+
+Software Development Process:
+The product analysis is complete, and documentation has been created.
+We will break down the requirements into smaller tasks for implementation.
+The initial phase involves installing the code, ensuring its functionality, and starting with bug fixing to become familiar with the software.
+In the next phase, we will develop new features.
+The final phase involves writing more complex code and integrating all the components.
+
+Task and Merge Management:
+Understanding the process of code merging and validation is crucial.
+Bug fixing is the first phase to acquaint ourselves with the software’s components and fix existing issues.
+Following bug fixing, we move to feature development and more complex coding.
+The methodology involves breaking down larger tasks into smaller, manageable pieces for implementation and testing.
+
+Methodology:
+Azzam shared his experience in systems development, starting with languages like C.
+Emphasized the importance of starting with the basics, understanding core functions, and gradually advancing to complex features.
+
+Next Steps:
+Await the sharing of the codebase and GitHub account collection.
+Set up our individual development environments.
+Start working on assigned tasks as per the outlined development phases.
