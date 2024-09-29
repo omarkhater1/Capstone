@@ -1,0 +1,26 @@
+Meeting Notes
+Date: September 22, 2024
+Attendees:
+
+Lina Raji
+Hiba Idrissi
+Omar Khater
+Project: Fitlynk – Part 2 (Software Capstone Project, Fall 2024)
+
+Agenda:
+
+Review coding progress.
+Discuss challenges.
+Plan next steps.
+
+
+Discussion Points:
+Progress Update:
+
+Lina is improving the visual quality of the Exercise app .
+Hiba is working on the MyDiet app, focusing on calorie tracking​.
+Omar is working on  basic features for the RunMate app like the timers​.
+
+Next Steps:
+
+Continue addressing technical issues with the client's development team and move forward with feature development.
