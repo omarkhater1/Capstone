@@ -1,0 +1,26 @@
+Meeting Notes
+Date: September 12, 2024
+Attendees:
+
+Lina Raji
+Hiba Idrissi
+Omar Khater
+Husam Khater (client)
+Azzam Jarad ( client)
+Project: Fitlynk – Part 2 (Software Capstone Project, Fall 2024)
+
+Agenda:
+
+Review goals and expectations for this term with the client.
+Discuss client feedback on progress.
+Adjust project plans based on feedback.
+Discussion Points:
+
+Client Discussion:
+
+We presented our goals for the term, including delivering a fully functional beta version by the end of the term.
+The client was pleased with our progress so far, particularly in the development of key features for the Exercise, MyDiet, and RunMate apps.
+The client emphasized the importance of ensuring the user experience remains seamless as we scale features.
+Feedback & Adjustments:
+
+We agreed to focus more on usability testing to ensure the UI remains intuitive as additional features are added.
