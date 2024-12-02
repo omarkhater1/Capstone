@@ -1,0 +1,166 @@
+*{
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+
+.heading1 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+.diet-screen {
+  text-align: center;
+  background-image: url('./main\ .png');
+  /* border-radius: 10px; */
+  /* border: 1px solid black; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.arrow {
+  color: #ceff45;
+  font-size: 29px;
+  float: left;
+  padding-left: 10px;
+  margin-top: 40px;
+}
+
+.previous {
+  color: #ceff45;
+  display: flex;
+  justify-content: left;
+}
+
+.heading2 {
+  color: #ffffff;
+  font-weight: bold;
+  /* margin: 0; */
+  margin-bottom: -12px;
+  /* margin-top: -3px; */
+}
+
+.paragraph {
+  color: #ceff45;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Poppins';
+}
+
+.details {
+  padding-top: 32px;
+  padding-bottom: 11px;
+}
+
+
+
+.goalsarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.goals {
+  width: 268px;
+  height: auto;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ceff45;
+  padding: 7px 10px;
+  margin-top: 20px; 
+  box-shadow: rgb(44 59 18 / 25%) 0px 13px 27px -5px, rgb(160 199 18 / 30%) 0px 8px 16px -8px;
+
+}
+
+
+
+.goals:hover {
+  background-color: #c7f841;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.goals:hover>.extreme *,
+.goals:hover>.image1 {
+  color: #000000;
+}
+
+
+
+.heading3 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1vw;
+  /* padding-left: 26px; */
+  font-family: 'Poppins';
+  margin-bottom: 0;
+}
+
+
+.image1 {
+  color: white;
+  font-size: 54px;
+}
+
+.extreme{
+  padding-left: 24px;
+  text-align: start;
+}
+
+.extreme p{
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+
+
+
+
+@media screen and (max-width: 3000px) {
+  /* Adjustments for smaller screens */
+
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .diet-screen {
+    max-width: 100%;
+    /* height: 100%; */
+    background-size: cover;
+    margin: auto;
+  }
+
+  .heading1 {
+    font-size: 24px;
+  }
+
+  .heading2 {
+    font-size: 20px;
+  }
+
+  .heading3 {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .image1 {
+    font-size: 56px;
+  }
+}

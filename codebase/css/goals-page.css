@@ -1,0 +1,608 @@
+/* Import the Poppins font for consistent typography */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Styling for primary heading */
+.heading1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+
+/* Main container for the diet screen with a background image */
+.diet-screen {
+  text-align: center;
+  background-image: url('./main .png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Styling for navigation arrows */
+.arrow {
+  color: #ceff45;
+  font-size: 29px;
+  float: left;
+  padding-left: 10px;
+  margin-top: 40px;
+}
+
+/* Styling for the back button */
+.previous {
+  color: #ceff45;
+  display: flex;
+  justify-content: left;
+}
+
+/* Secondary heading style */
+.heading2 {
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: -12px;
+  font-family: 'Poppins';
+}
+
+/* Paragraph text style */
+.paragraph {
+  color: #ceff45;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Poppins';
+}
+
+/* Padding adjustments for details section */
+.details {
+  padding-top: 32px;
+  padding-bottom: 11px;
+}
+
+/* Centered goals container */
+.goalsarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Individual goal card styling */
+.goals {
+  width: 268px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ceff45;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: rgba(44, 59, 18, 0.25) 0px 13px 27px -5px, rgba(160, 199, 18, 0.3) 0px 8px 16px -8px;
+}
+
+/* Hover effect for goal cards */
+.goals:hover {
+  background-color: #c7f841;
+  cursor: pointer;
+}
+
+/* Change text and icon color on hover */
+.goals:hover > .heading3,
+.goals:hover > .image1 {
+  color: #000000;
+}
+
+/* Tertiary heading style */
+.heading3 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1vw;
+  padding-left: 24px;
+  font-family: 'Poppins';
+}
+
+/* Icon styling */
+.image1 {
+  color: white;
+}
+
+/* Responsive adjustments for large screens */
+@media screen and (max-width: 3000px) {
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .diet-screen {
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin: auto;
+  }
+
+  .heading1 {
+    font-size: 24px;
+  }
+
+  .heading2 {
+    font-size: 20px;
+  }
+
+  .heading3 {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .image1 {
+    font-size: 60px;
+  }
+}
+
+/* Hidden modal for weight loss */
+.lose-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 20%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Lose modal content with animations */
+.lose-modal-content {
+  background: linear-gradient(168.26deg, #3E3C3C 43.61%, #000000 91.4%);
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 300px;
+  height: 290px;
+  position: relative;
+  top: -50px;
+  opacity: 0;
+  transition: top 0.3s ease, opacity 0.3s ease;
+  border: 2px solid #ceff45;
+}
+
+/* Show the modal when active */
+.lose-modal-content.show {
+  top: 0;
+  opacity: 1;
+}
+
+/* Styling for the button in the modal */
+.next-des {
+  border: 2px solid #ceff45;
+  background: none;
+  width: 135px;
+  font-family: 'Poppins';
+  border-radius: 11px;
+  word-spacing: 20%;
+  color: #ceff45;
+  height: 46px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Hover effect for modal button */
+.next-des:hover {
+  background-color: #ceff45;
+  color: black;
+}
+
+/* Text styling inside the next section */
+.next p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 195.5%;
+  margin: 0;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+/* Hidden modal for weight gain */
+.gain-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 20%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Gain modal content with animations */
+.gain-modal-content {
+  background: linear-gradient(168.26deg, #3E3C3C 43.61%, #000000 91.4%);
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 300px;
+  height: 290px;
+  position: relative;
+  top: -50px;
+  opacity: 0;
+  transition: top 0.3s ease, opacity 0.3s ease;
+  border: 2px solid #ceff45;
+}
+
+/* Show the modal when active */
+.gain-modal-content.show {
+  top: 0;
+  opacity: 1;
+}
+
+/* Slider container style */
+.slidecontainer {
+  width: 100%;
+}
+
+/* Hidden text inside the slider container */
+.slidecontainer p {
+  font-size: 0;
+}
+
+/* Styling for the slider */
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 33px;
+  background: #CEFF45;
+  outline: none;
+  transition: opacity 0.2s;
+  margin: 20px 0;
+}
+
+/* Slider hover effect */
+.slider:hover {
+  opacity: 1;
+}
+
+/* Styling for the slider thumb */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 36px;
+  height: 33px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 36px;
+  height: 33px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.slidecontainer p{
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 195.5%;
+/* or 39px */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+/* #lose_rangeValue{
+  background: rgba(189, 245, 32, 0.5);
+  border-radius: 25px;
+  border: none;
+  width: 84px;
+  text-align: center;
+  height: 71px;
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 195.5%;
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
+
+#gain_rangeValue{
+  background: rgba(189, 245, 32, 0.5);
+  border-radius: 25px;
+  border: none;
+  width: 84px;
+  text-align: center;
+  height: 71px;
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 195.5%;
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+} */
+
+
+/* Modal */
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Position the modal */
+  z-index: 1; /* Set the z-index */
+  left: 0;
+  top: 12%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.weight-modal-content.show {
+  top: 0; /* Move to the center of the screen */
+  opacity: 1; /* Set opacity to 1 */
+}
+
+.weight-modal-content {
+  background: linear-gradient(168.26deg, #3E3C3C 43.61%, #000000 91.4%);
+border-radius: 0px 80px 0px 30px;
+  margin: 0 auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 280px; /* Could be more or less, depending on screen size */
+  position: relative; /* Needed for the animation */
+  top: -10px; /* Start off the screen */
+  opacity: 0; /* Start with opacity 0 */
+  transition: top 0.3s ease, opacity 0.3s ease; /* Add the transition */
+  border: 2px solid #ceff45;
+}
+
+.gainweight-modal-content.show {
+  top: 0; /* Move to the center of the screen */
+  opacity: 1; /* Set opacity to 1 */
+}
+
+.gainweight-modal-content {
+  background: linear-gradient(168.26deg, #3E3C3C 43.61%, #000000 91.4%);
+border-radius: 0px 80px 0px 30px;
+  margin: 0 auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 280px; /* Could be more or less, depending on screen size */
+  position: relative; /* Needed for the animation */
+  top: -10px; /* Start off the screen */
+  opacity: 0; /* Start with opacity 0 */
+  transition: top 0.3s ease, opacity 0.3s ease; /* Add the transition */
+  border: 2px solid #ceff45;
+}
+
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalbtn {
+  border: 2px solid #ceff45;
+  background: none;
+  width: 135px;
+  border-radius: 11px;
+  /* word-spacing: 5%; */
+  color: #ceff45;
+  height: 40px;
+}
+
+.modalbtn:hover {
+  background-color: #ceff45;
+  color: black;
+}
+
+.save {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+
+
+
+/* weight design css */
+.weight-main-div {
+  display: flex;
+  height: 200px;
+}
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 200px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  color: #333;
+  font-family: "Rubik", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.thermostat {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 100px;
+  background: #000000;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.8);
+}
+
+.thermostat .control {
+  position: absolute;
+  z-index: 5;
+  width: 130px;
+  height: 130px;
+  top: 25%;
+  left: 35px;
+  background: #000000;
+  border-radius: 50%;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+}
+
+.thermostat .control .temp_outside {
+  position: absolute;
+  top: 25px;
+  left: 6px;
+  right: 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.thermostat .control .temp_room {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  color: #bef32c;
+  letter-spacing: -8px;
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+}
+
+.thermostat .control .temp_room span {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  padding: 3px 0 0 7px;
+  color: #CEFF45;
+}
+
+.room {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white !important;
+}
+
+.thermostat .ring {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 10px;
+  left: 10px;
+  background: linear-gradient(to right bottom, #CEFF45, #000000);
+  border-radius: 50%;
+  box-shadow: inset 2px 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.thermostat .ring .bottom_overlay {
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  top: 50%;
+  left: 50%;
+  background: #000000;
+  transform-origin: 0 0;
+  transform: rotate(45deg);
+  border-radius: 0 0 95px 0;
+}
+
+#slider {
+  position: absolute;
+  width: 170px;
+  height: 150px;
+  top: 70%;
+  left: 32%;
+}
+
+#slider .rs-border {
+  border-color: transparent;
+}
+
+.rs-control .rs-range-color,
+.rs-control .rs-path-color,
+.rs-control .rs-bg-color {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.rs-control .rs-handle {
+  background-color: white;
+}
+
+.rs-tooltip.edit,
+.rs-tooltip .rs-input,
+.rs-tooltip-text {
+  font-family: rubik, helvetica, sans-serif;
+  font-size: 2rem;
+  background: transparent;
+  color: #bef32c;
+  font-weight: 400;
+  top: 65%;
+  height: 3.9rem;
+  padding: 0 !important;
+  width: 4.5rem;
+}
+
+#slider:hover .rs-tooltip,
+.rs-tooltip:focus,
+.rs-tooltip-text:focus {
+  border: none;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+#slider .rs-transition {
+  transition-timing-function: cubic-bezier(1, -0.53, 0.405, 1.425);
+}
+
+.fas {
+  -webkit-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
+}
+
+@-webkit-keyframes pulse {
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes pulse {
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+.target-weight{
+  color:  #ffffff;
+  font-family: 'Poppins';
+  font-size: 22px;
+}
+
+/* weight slider */
+

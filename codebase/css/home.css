@@ -1,0 +1,386 @@
+*{
+  font-family: 'Poppins';
+}
+html {
+  background: url('./main\ .png') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.heading1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+
+
+.diet-screen {
+  
+  text-align: center;
+  background-image: url('./main\ .png');
+  /* border: 1px solid black; */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* height: 100%; */
+
+}
+
+.arrow {
+  color: #ceff45;
+  font-size: 29px;
+  float: left;
+  padding-left: 10px;
+  margin-top: 40px;
+}
+
+.previous {
+  color: #ceff45;
+  display: flex;
+  justify-content: left;
+}
+
+#meals {
+  margin: auto;
+  padding: 0 15px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+
+}
+
+section.meals {
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+#meals ul {
+  text-align: left;
+
+}
+
+.transition,
+p,
+ul li i:before,
+ul li i:after {
+  transition: all 0.3s;
+}
+
+#meals .no-select,
+#meals h2 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+#meals h1 {
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.meals-heading {
+  color: #ffffff;
+  font-family: 'hm_light', sans-serif;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: left;
+  padding: 15px 15px 0;
+  text-transform: none;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  transition: .2s;
+}
+
+#meals p {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'hm_light', sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  position: relative;
+  overflow: hidden;
+  max-height: 250px;
+  will-change: max-height;
+  contain: layout;
+  display: inline-block;
+  opacity: 1;
+  transform: translate(0, 0);
+  /* margin-top: 5px;
+  margin-bottom: 15px; */
+  /* padding: 0 50px 0 15px; */
+  padding: 0 15px 0 15px;
+  transition: .3s opacity, .6s max-height;
+  hyphens: auto;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+#meals ul {
+  list-style: none;
+  perspective: 900;
+  padding: 0;
+  margin: 0;
+}
+
+#meals ul li {
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  background: #000;
+  padding: 20px 20px;
+  margin: 0;
+  color: #ffffff;
+  border: 2px solid #CEFF45;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
+  -webkit-tap-highlight-color: transparent;
+}
+
+#meals ul li+li {
+  margin-top: 15px;
+}
+
+#meals ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 25px;
+  right: 15px;
+}
+
+#meals ul li i:before,
+ul li i:after {
+  content: "";
+  position: absolute;
+  background-color: #CEFF45;
+  width: 3px;
+  height: 9px;
+}
+
+#meals ul li i:before {
+  transform: translate(-2px, 0) rotate(45deg);
+}
+
+#meals ul li i:after {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+
+#meals ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  touch-action: manipulation;
+}
+
+#meals ul li input[type=checkbox]:checked~h2 {
+  color: #ffffff;
+}
+
+#meals ul li input[type=checkbox]:checked~p {
+  /*margin-top: 0;*/
+  max-height: 0;
+  transition: .3s;
+  opacity: 0;
+  /*transform: translate(0, 50%);*/
+}
+
+#meals ul li input[type=checkbox]:checked~i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+
+#meals ul li input[type=checkbox]:checked~i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+
+
+.accord {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.accord-icon {
+  font-size: 50px;
+  color: #CEFF45;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+  outline: 0;
+}
+
+a {
+  color: currentColor;
+  transition: .2s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: .3em 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  height: auto;
+  width: 100%;
+}
+
+.resetlink{
+  vertical-align: middle;
+  color: #CEFF45;
+  font-size: medium;
+  padding: 5px;
+  border: #CEFF45 solid 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 25%;
+  text-align: center;
+  margin: 20px auto;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+/* Modal */
+.modal {
+  display: none;
+  /* Hide the modal by default */
+  position: fixed;
+  /* Position the modal */
+  z-index: 100;
+  /* Set the z-index */
+  left: 0;
+  top: 12%;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.modal-content {
+  background: linear-gradient(168.26deg, #3E3C3C 43.61%, #000000 91.4%);
+  border-radius: 0px 80px 0px 30px;
+  margin: 0 auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  width: 260px;
+  /* Could be more or less, depending on screen size */
+  height: 230px;
+  position: relative;
+  /* Needed for the animation */
+  top: -10px;
+  /* Start off the screen */
+  opacity: 0;
+  /* Start with opacity 0 */
+  transition: top 0.3s ease, opacity 0.3s ease;
+  /* Add the transition */
+  border: 2px solid #ceff45;
+}
+
+.modal-content.show {
+  top: 0;
+  /* Move to the center of the screen */
+  opacity: 1;
+  /* Set opacity to 1 */
+}
+.height-modal-content.show {
+  top: 0;
+  /* Move to the center of the screen */
+  opacity: 1;
+  /* Set opacity to 1 */
+}
+
+.height-modal-content {
+  background: linear-gradient(168.26deg, #3E3C3C 43.61%, #000000 91.4%);
+  border-radius: 0px 80px 0px 30px;
+  margin: 0 auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  width: 280px;
+  /* Could be more or less, depending on screen size */
+  position: relative;
+  /* Needed for the animation */
+  top: -10px;
+  /* Start off the screen */
+  opacity: 0;
+  /* Start with opacity 0 */
+  transition: top 0.3s ease, opacity 0.3s ease;
+  /* Add the transition */
+  border: 2px solid #ceff45;
+  text-align: center;
+  color: #CEFF45;
+}
+.height-modal-content p{
+  margin: 15px;
+}
+.modalbtn {
+  border: 2px solid #ceff45;
+  background: none;
+  width: 40%;
+  border-radius: 11px;
+  /* word-spacing: 5%; */
+  color: #ceff45;
+  height: 40px;
+}
+
+@media screen and (max-width: 3000px) {
+  /* Adjustments for smaller screens */
+
+  body,
+  html {
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins";
+  }
+
+  .diet-screen {
+      max-width: 100%;
+      background-size: cover;
+      margin: auto;
+  }
+
+  .heading1 {
+      font-size: 24px;
+      padding: 0 10px;
+  }
+
+  .heading3 {
+      font-size: 18px;
+  }
+} 
