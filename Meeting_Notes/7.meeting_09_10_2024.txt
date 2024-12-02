@@ -1,0 +1,28 @@
+Meeting Notes
+Date: October 9, 2024
+Attendees:
+
+Lina Raji
+Hiba Idrissi
+Omar Khater
+Project: Fitlynk – Part 2 (Software Capstone Project, Fall 2024)
+
+Agenda:
+Discuss updates to the project requirements.
+
+Discussion Summary:
+The client has revised the project scope to prioritize the development of the MyDiet application. This decision aims to accelerate the production timeline, focusing efforts on completing and refining the app as soon as possible. As a result, all team members will now concentrate exclusively on MyDiet, with particular emphasis on the customized meal plan section.
+
+Next Steps:
+Requirement Alignment:
+
+Review and document any changes to the MyDiet application requirements to ensure clarity and alignment across the team.
+Task Redistribution:
+
+Reassign tasks among team members to optimize progress on the customized meal plan section.
+Development Plan:
+
+Establish a development timeline for the MyDiet application, including key milestones for the customized meal plan feature.
+Client Feedback Loop:
+
+Schedule regular updates with the client to review progress and ensure expectations are met.

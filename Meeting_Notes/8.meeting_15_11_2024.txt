@@ -1,0 +1,44 @@
+Meeting Notes
+Date: November 15, 2024
+Attendees:
+
+Lina Raji
+Hiba Idrissi
+Omar Khater
+Client- Husam Khater 
+Project: Fitlynk – Part 2 (Software Capstone Project, Fall 2024)
+
+Agenda:
+Present progress on MyDiet application.
+Gather client feedback on developed screens.
+Plan next development steps based on feedback.
+Discussion Summary:
+The team presented the client with two key developed screens of the MyDiet application:
+
+MyDiet Homepage: Showcases the app's main dashboard, providing users with easy access to meal planning features, progress tracking, and notifications.
+User Information Input Page: Allows users to input and update personal information, including weight, height, activity level, and dietary preferences.
+The client expressed satisfaction with the overall design and functionality of these screens. Some minor suggestions were made regarding:
+
+Improving the clarity of instructions on the user information input page.
+
+Next Steps:
+Incorporate Client Feedback:
+
+Revise the user input page to include clearer instructions.
+
+Continue Development:
+
+Begin implementing the customized meal plan section.
+
+Testing:
+
+Prepare test cases for the presented screens to ensure functionality and usability align with client expectations.
+Feedback Loop:
+
+Schedule another meeting to present the revised screens and new progress on the customized meal plan section.
+Documentation:
+
+Update project documentation to reflect the current development status and client feedback.
+Team Coordination:
+
+Reassign tasks to ensure parallel progress on remaining features while addressing the client’s suggestions.
